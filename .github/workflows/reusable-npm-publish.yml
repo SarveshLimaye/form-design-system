@@ -20,7 +20,7 @@ jobs:
           node-version: '14.x'
           cache: 'yarn'
       - name: Installing packages
-        run: yarn --frozen-lockfile
+        run: yarn
       # - name: Build Style Dictionary
       #   #   run: yarn build
       #   # - name: Setting up git config before publish
